@@ -13,7 +13,7 @@ class CreateDatabase(unittest.TestCase):
         driver.get(url)
         self.assertIn("ParaBank", driver.title)
 
-        elem = driver.find_element_by_xpath("//input[@id='accessMode2'][@class='input'][@name='accessMode'][@type='radio'][@value='restxml'][@checked='checked']")
+        elem = driver.find_element_by_xpath("//input[@id='accessMode2'][@class='input'][@name='accessMode'][@type='radio'][@value='restxml']")
         elem.click()
 
         elem = driver.find_element_by_xpath("//input[@class='button'][@type='submit'][@value='Submit']")
