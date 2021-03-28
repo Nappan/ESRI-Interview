@@ -40,6 +40,17 @@ class RegisterUser(unittest.TestCase):
         elem = driver.find_element_by_xpath("//input[@class='button'][@type='submit'][@value='Register']")
         elem.click()
 
+        elem = driver.find_element_by_link_text("Log Out")
+        elem.click()
+
+        logusername = driver.find_element_by_xpath("//input[@class='input'][@name='username'][@type='text']")
+        logpassword = driver.find_element_by_xpath("//input[@class='input'][@name='password'][@type='password']")
+        logButton = driver.find_element_by_xpath("//input[@class='button'][@type='submit'][@value='Log In']")
+
+        logusername.send_keys("Test")
+        logpassword.send_keys("test123")
+        logButton.click()
+
     def tearDown(self):
         self.driver.close()
 
