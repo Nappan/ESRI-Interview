@@ -3,11 +3,11 @@
 We are going to be using ParaBank Banking Software to test our cases, I chose not to use an actual credit card/banking site because I didn't want to risk flagging systems for any sort of fraud while I test out my script.
 
 Test Cases:
-Verify if we can create a new database for a bank (test-script.initialize-database.py)
-Verify if we can register a new user into the bank (test-script-register.py)
-Verify if we can create a new account for our user (test-script-transfer-funds.py)
-Verify if we can transfer funds from one account to another (test-script-transfer-funds.py)
-Verify if we can request a loan from bank (test-script-request-loan.py)
+Verify if we can create a new database for a bank (test-script.initialize-database.py)  
+Verify if we can register a new user into the bank (test-script-register.py)  
+Verify if we can create a new account for our user (test-script-transfer-funds.py)  
+Verify if we can transfer funds from one account to another (test-script-transfer-funds.py)  
+Verify if we can request a loan from bank (test-script-request-loan.py)  
 
 Requirements:
 Selenium
