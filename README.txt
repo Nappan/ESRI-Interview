@@ -19,6 +19,6 @@ How to run:
 3. Run test-script-transfer-funds.py
 4. Run test-script-request-loan.py
 
-If any issues come up during the scripts, run the scripts from the beginning
+If any issues come up during the scripts, run the scripts from the beginning.
 
 #DISCLAIMER: Account IDs are hard-coded in this script, which I understand is very bad practice, but for the sake of saving time and how this banking software works I will be hard coding the account IDs
